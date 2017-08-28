@@ -1,10 +1,10 @@
-import * as actions from '../actions';
+import * as actions from '../modules';
 import {connect} from 'react-redux';
 import CounterList from '../components/CounterList';
 import {getRandomColor} from '../utils';
 
 const mapStateToProps = (state) => ({
-    counters: state.counters
+    counters: state.get('counters')
 });
 
 const mapDispatchToProps = (dispatch) => ({

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import * as actions from '../actions';
+import * as actions from '../modules';
 import Button from '../components/Button';
 import CounterListContainer from '../containers/CounterListContainer';
 import {connect} from 'react-redux';
